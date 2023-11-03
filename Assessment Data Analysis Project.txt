@@ -1,0 +1,40 @@
+Assessment: Data Analysis Project
+
+Introduction
+I'm a sociologist, so my choice of database is the World Happiness report 2019, from Kaggle. The primary goal of this project is to analyze the World Happiness Report 2019 dataset to identify key factors contributing to happiness and to visualize these insights.
+The World Happiness Report 2019 is a comprehensive dataset that provides insights into the happiness and well-being of people in various countries around the world. 
+This data analysis project aims to explore the dataset, perform ETL operations, and create meaningful visualizations to gain a deeper understanding of happiness factors and their interrelationships.
+
+Resources
+Data Source: https://www.kaggle.com/datasets/priyanka841/2019-world-happiness-report-csv-file 
+https://datascientyst.com/full-list-named-colors-pandas-python-matplotlib/ 
+https://matplotlib.org/stable/users/explain/colors/colormaps.html
+
+ETL Process
+Data is extracted from the World Happiness Report 2019 dataset, which is provided as a CSV file.
+Data is cleaned, transformed, and prepared for analysis. This includes handling missing values, filtering, and applying transformations to the data.
+The transformed data is loaded into various data structures, including DataFrames and visualization libraries.
+
+Visualizations and Interpretations
+1. To visualize the top 15 happiest countries, I created a bar chart.
+2. To explore the relationship between GDP and happiness score, I created a scatter plot.
+3. To visualize the correlations between different factors, I made a correlation heatmap.
+4. A pairplot is a grid of scatterplots that allows you to visualize relationships between multiple variables in this dataset. 
+5. A box plot provides information about the distribution of the happiness scores, including the median, quartiles, and potential outliers.
+6. A bar chart to visualize the generosity of different countries.
+7. A histogram to visualize the distribution of GDP.
+8. A radar chart to compare multiple factors for each country in a single chart.
+9. A bubble plot is useful to visualize three variables simultaneously. 
+
+These visualizations provide different insights into the World Happiness Report 2019 dataset, including relationships between factors, the distribution of happiness scores, generosity rankings, and the distribution of GDP per capita. 
+
+Data Analysis Report - World Happiness Report 2019 - Conclusion
+In summary, our analysis of the World Happiness Report 2019 dataset has revealed several key findings:
+
+•	Higher GDP per capita is positively associated with higher happiness scores.
+•	There are strong positive correlations between GDP per capita, social support, and healthy life expectancy.
+•	The radar chart and bubble plot allow us to compare and explore happiness factors and their relationships across different countries
+
+Understanding the determinants of happiness is not only a matter of academic interest but also a practical one. 
+The findings of this analysis can be instrumental for policymakers, governments, and organizations seeking to improve the quality of life for their citizens. By focusing on the factors that truly matter, policies and interventions can be designed to enhance the well-being of nations.
+It is important to acknowledge that happiness is a complex and multifaceted concept that cannot be fully captured by quantitative data alone. While this analysis provides insights, a comprehensive understanding of happiness requires a multidisciplinary approach that considers cultural, social, and psychological aspects.
